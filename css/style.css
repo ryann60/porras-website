@@ -1,4 +1,30 @@
 .nav {
     display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px;
+}
+.headnav {
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px
+}
+.logo {
+    width: 275px;
+    height: 100px;
+    margin: 0px 20px;
+}
+section {
+    margin: 100px 0px;
+}
+.requestButton {
+    color: #4A2C3F;
+    background-color: #E8B4B8;
+    border: none;
+    margin: 10px 5px;
+    height: 40px;
+    width: 150px;
+}
+body {
+    background-color: #FAF6F0;
 }
