@@ -1,8 +1,17 @@
+p {
+    font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .nav {
     display: flex;
     flex-wrap:wrap;
     font-size: 20px;
     align-items: center;
+    
 }
 .nav a {
     text-decoration: none;
@@ -13,7 +22,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 100px
+    margin-bottom: 100px;
+    padding: 0px 55px;
+    
 }
 .logo {
     width: 275px;
@@ -40,7 +51,11 @@ section {
 }
 body {
     background-color: #FAF6F0;
+    
+}
+#home {
     padding: 0px 75px;
+    margin-bottom: 150px;
 }
 .home {
     display: flex;
@@ -48,7 +63,11 @@ body {
 }
 h1 {
     font-size: 60px;
-    color: #4A2C3F;
+    color: #C9A66B;
+}
+h2 {
+    font-size: 30px;
+    color: #C9A66B;
 }
 .banner {
   position: relative;
@@ -73,4 +92,47 @@ h1 {
 }
 .banner:hover img {
   transform: scale(1.05);
+}
+#about {
+    display: flex;
+    margin-bottom: 100px;
+    background-color: #A8B5A2;
+    padding: 100px 60px;
+}
+#about h1 {
+    color: #4A2C3F;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#about div {
+    width: 50%;
+    padding: 0px 20px;
+}
+#services {
+    display: flex;
+    margin-bottom: 100px;
+    padding: 0px 75px;
+}
+#servicesCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#services h2 {
+    color: #C9A66B;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#services h3 {
+    color: #4A2C3F;
+    font-size: 28px;
+}
+.card {
+    background-color: #C9A66B;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 10px 30px;
+    width: 250px;
+    height: 200px;
+    justify-content: center;
 }
