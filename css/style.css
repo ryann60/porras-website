@@ -109,7 +109,6 @@ h2 {
     padding: 0px 20px;
 }
 #services {
-    display: flex;
     margin-bottom: 100px;
     padding: 0px 75px;
 }
@@ -135,4 +134,54 @@ h2 {
     width: 250px;
     height: 200px;
     justify-content: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+#packages {
+    margin-bottom: 100px;
+    padding: 0px 75px;
+}
+#packages h2 {
+    color: #C9A66B;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.package {
+    background-color: #ffffff;
+    border: 2px solid #C9A66B;
+    border-radius: 16px;
+    padding: 30px 60px;
+    margin: 40px 20px;
+    width: 350px;
+    height: 300px;
+    color: #4A2C3F;
+    display: flex;
+    flex-direction: column;
+}
+.package > :last-child {
+  align-items: end;
+}
+.package:hover {
+    background-color: #C9A66B;
+    color: #ffffff;
+}
+.package h3 {
+    color: #4A2C3F;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.serviceButton {
+    text-decoration: none;
+    color: #4A2C3F;
+    font-size: 16px;
+    background-color: #E8B4B8;
+    border: none;
+    margin: 10px 5px;
+    height: 40px;
+    width: 160px;
+    border-radius: 25px;
+}
+.package button {
+    margin-top: auto;
 }
