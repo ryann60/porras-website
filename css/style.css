@@ -1,5 +1,5 @@
 p {
-    font-size: 20px;
+    font-size: 21px;
 }
 * {
   box-sizing: border-box;
@@ -64,6 +64,7 @@ body {
 h1 {
     font-size: 60px;
     color: #C9A66B;
+    margin-bottom: 20px;
 }
 h2 {
     font-size: 30px;
@@ -84,11 +85,17 @@ h2 {
   display: block;
 }
 .bannerText {
-  position: absolute;
-  bottom: 24px;
-  left: 24px;
-  color: #ffffff;
-  font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
 }
 .banner:hover img {
   transform: scale(1.05);
@@ -154,7 +161,7 @@ html {
     padding: 30px 60px;
     margin: 40px 20px;
     width: 350px;
-    height: 300px;
+    height: 350px;
     color: #4A2C3F;
     display: flex;
     flex-direction: column;
@@ -184,4 +191,59 @@ html {
 }
 .package button {
     margin-top: auto;
+}
+.package ul {
+    list-style: none;
+}
+.package li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#portfolio {
+    margin-bottom: 100px;
+    padding: 0px 75px
+}
+#portfolio h2 {
+    color: #C9A66B;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.photo {
+    position: relative;
+    width: 320px;
+    height: 240px;
+    border-radius: 16px;
+    margin: 10px 15px;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.photo span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+}
+.photo:hover img {
+  transform: scale(1.06);
 }
