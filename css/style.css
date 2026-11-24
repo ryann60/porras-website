@@ -1,6 +1,10 @@
 p {
     font-size: 21px;
 }
+a {
+    text-decoration: none;
+    color: #4A2C3F;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,11 +15,8 @@ p {
     flex-wrap:wrap;
     font-size: 20px;
     align-items: center;
-    
 }
 .nav a {
-    text-decoration: none;
-    color: #4A2C3F;
     margin: 0px 20px;
 }
 .headnav {
@@ -24,7 +25,6 @@ p {
     justify-content: space-between;
     margin-bottom: 100px;
     padding: 0px 55px;
-    
 }
 .logo {
     width: 275px;
@@ -106,7 +106,7 @@ h2 {
     background-color: #A8B5A2;
     padding: 100px 60px;
 }
-#about h1 {
+#about h2 {
     color: #4A2C3F;
     font-size: 60px;
     margin-bottom: 20px;
@@ -279,6 +279,42 @@ html {
     font-size: 24px;
     margin-bottom: 10px;
 }
+#quote {
+    margin-bottom: 100px;
+    padding: 0px 75px;
+}
+#quote h2 {
+    color: #C9A66B;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#quote p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.quoteForm {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.quoteForm label {
+    color: #4A2C3F;
+    font-size: 18px;
+    margin: 15px 0px 5px;
+}
+.quoteForm input, .quoteForm select, .quoteForm textarea {
+    font-size: 16px;
+    font-family: inherit;
+    color: #4A2C3F;
+    background-color: #ffffff;
+    border: 2px solid #C9A66B;
+    border-radius: 10px;
+    padding: 10px;
+}
+.quoteForm .requestButton {
+    margin: 25px 0px 0px;
+    cursor: pointer;
+}
 #contact {
     margin-bottom: 100px;
     padding: 0px 75px;
@@ -307,4 +343,28 @@ html {
 .contactCard h3 {
     font-size: 28px;
     margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #4A2C3F;
+    color: #FAF6F0;
+    padding: 50px 75px;
+}
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+footer a {
+    color: #E8B4B8;
+    text-decoration: none;
+}
+.footerName {
+    font-size: 28px;
+    color: #C9A66B;
+}
+.footerLinks {
+    text-align: right;
 }
