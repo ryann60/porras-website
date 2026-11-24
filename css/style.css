@@ -247,3 +247,64 @@ html {
 .photo:hover img {
   transform: scale(1.06);
 }
+#reviews {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    background-color: #A8B5A2;
+    padding: 100px 60px;
+}
+#reviews h2 {
+    color: #4A2C3F;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.reviewRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.review {
+    background-color: #FAF6F0;
+    border-radius: 16px;
+    padding: 25px;
+    margin: 10px 20px;
+    width: 300px;
+    color: #4A2C3F;
+    border: 2px solid #C9A66B;
+    border-radius: 16px;
+}
+.stars {
+    color: #C9A66B;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#contact {
+    margin-bottom: 100px;
+    padding: 0px 75px;
+}
+#contact h2 {
+    color: #C9A66B;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.contactRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contactCard {
+    background-color: #A8B5A2;
+    border-radius: 16px;
+    padding: 25px;
+    margin: 30px 15px;
+    width: 280px;
+    height: 200px;
+    color: #4A2C3F;
+    border: 2px solid #C9A66B;
+    border-radius: 16px;
+}
+.contactCard h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
