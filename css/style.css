@@ -357,7 +357,6 @@ html {
     font-size: 28px;
     margin-bottom: 10px;
 }
-
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -380,4 +379,61 @@ footer a {
 }
 .footerLinks {
     text-align: right;
+}
+.intro {
+    margin-top: 0px;
+    padding: 0px 75px;
+    padding-top: 150px;
+    margin-bottom: 60px;
+}
+.intro p {
+    color: #4A2C3F;
+    margin-bottom: 30px;
+}
+.backLink {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.categoryLinks a {
+    display: inline-block;
+    font-size: 16px;
+    background-color: #E8B4B8;
+    border-radius: 25px;
+    padding: 12px 30px;
+    margin: 5px 10px 5px 0px;
+}
+.album {
+    padding: 0px 75px;
+    margin-bottom: 80px;
+}
+.album p {
+    color: #4A2C3F;
+    margin-bottom: 25px;
+}
+.album h2 {
+    color: #C9A66B;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.cardDisplay {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+.card {
+    background-color: #ffffff;
+    border: 2px solid #C9A66B;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 300px;
+    width: 380px;
+}
+.card img, .photoBox {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
 }
